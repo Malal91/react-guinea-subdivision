@@ -1,0 +1,42 @@
+[
+    {
+       "code": "GN-B",
+       "area": "31186",
+       "region": "Boké"
+    },
+    {
+        "code": "GN-C",
+        "area": "308",
+        "region": "Conakry"
+    },
+    {
+       "code": "GN-F",
+       "area": "35581",
+       "region": "Faranah"
+    },
+    {
+       "code": "GN-K",
+       "area": "72145",
+       "region": "Kankan"
+    },
+    {
+       "code": "GN-D",
+       "area": "28873",
+       "region": "Kindia"
+    },
+    {
+       "code": "GN-L",
+       "area": "22869"
+       "region": "Labé"
+    },
+    {
+       "code": "GN-M",
+       "area": "17074",
+       "region": "Mamou"
+    },
+    {
+       "code": "GN-N",
+       "area": "37658",
+       "region": "N'Zérékoré"
+    }
+]
