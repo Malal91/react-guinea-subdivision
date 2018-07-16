@@ -76,6 +76,22 @@ class Regions extends Component {
     }
 }
 
+const CodesRegions = () => {
+    return (
+        <div className="col-md-3">
+            <select  className="form-control selectpicker">
+                {
+                    regions.map((prop, key) => {
+                        return <option key={key} value={prop.code}>{prop.code}</option>
+                    })
+                }
+            </select>
+        </div>
+    );
+};
+
+export default index;
+
 class Sousprefectures extends Component {
     render() {
         return(
@@ -93,4 +109,4 @@ class Sousprefectures extends Component {
 }
 
 
-export {Prefectures, Communes, Quartiers, Regions, Sousprefectures}
+export {Prefectures, Communes, Quartiers, Regions, Sousprefectures, CodesRegions}
